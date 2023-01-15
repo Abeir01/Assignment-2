@@ -1,0 +1,165 @@
+*{
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
+}
+header{
+   background-color:antiquewhite;
+   height: 1500px;
+}
+.container-h{
+   display: flex;
+   gap: 800px;
+   margin-bottom: 100px;
+   
+}
+.headtext{
+   font-size: 50px;
+   padding: 30px 0px 0px 100px;
+}
+.navbar{
+   display: flex;
+   gap: 70px;
+   padding: 50px 0px 0px 0px;
+   color: rgb(92, 92, 92);
+   
+
+}
+.middlesec{
+
+gap: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0px 500px;
+   text-align: center;
+   padding-bottom: 400px;
+    
+}
+.middlesec h1{
+   font-size: 70px;
+}
+.middlesec button{
+color: aliceblue;
+background-color: orange;
+border: 0;
+width: 200px;
+height: 70px;
+border-radius: 5px;
+font-size: 25px;
+}
+
+.bodysec{
+   display: flex;
+   padding-bottom: 200px;
+}
+.bodyimg{
+   margin-left: 300px;
+   margin-top: 100px;
+   
+}
+.bodytext{
+   display: flex;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+      margin-top: 400px;
+      padding-right: 200px;
+      width: 1000px;
+      gap: 30px;
+}
+.bodytext button{
+   color: aliceblue;
+      background-color: orange;
+      border: 0;
+      width: 200px;
+      height: 70px;
+      border-radius: 5px;
+      font-size: 25px;
+}
+.bodytext h1{
+   font-size: 40px;
+}
+.features{
+   display: flex;
+   padding: 100px 100px 200px 100px;
+}
+.feature-text{
+display: flex;
+   flex-direction: column;
+   align-items: left;
+   text-align: left;
+   margin-top: 100px;
+   margin-right: 200px;
+   margin-left: 100px;
+   width: 700px;
+   gap: 30px;
+}
+.feature-text h1{
+   font-size: 50px;
+}
+.features button{
+   color: aliceblue;
+      background-color: orange;
+      border: 0;
+      width: 300px;
+      height: 180px;
+      border-radius: 5px;
+      font-size: 60px;
+      position: relative;
+      bottom: 950px;
+     
+}
+
+.goals{
+   padding-bottom: 200px;
+   display: flex;
+   margin: 0px 300px;
+   gap: 100px;
+   text-align: center;
+   
+}  
+.goals h1 {
+   font-size: 25px;
+}
+.facticon1{
+   border:solid rgb(177, 111, 111); border-width: 1px; padding: 40px; border-radius: 5px;
+   transition: border-radius 2s ;
+}
+.facticon1:hover{
+   border-radius: 80px;
+}
+
+.facticon2 {
+   border: solid rgb(177, 111, 111);
+   border-width: 1px;
+   padding: 40px;
+   border-radius: 5px;
+   transition: border-radius 2s;
+}
+
+.facticon2:hover {
+   border-radius: 80px;
+}
+.facticon3 {
+   border: solid rgb(177, 111, 111);
+   border-width: 1px;
+   padding: 50px;
+   border-radius: 5px;
+   transition: border-radius 2s;
+}
+
+.facticon3:hover {
+   border-radius: 80px;
+}
+.facticon4 {
+   border: solid rgb(177, 111, 111);
+   border-width: 1px;
+   padding: 60px;
+   border-radius: 5px;
+   transition: border-radius 2s;
+}
+
+.facticon4:hover {
+   border-radius: 80px;
+}
